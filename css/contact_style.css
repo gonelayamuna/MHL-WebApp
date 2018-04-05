@@ -1,0 +1,56 @@
+.contact_text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact_text p {
+    font-size: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #34a6b3;
+    padding: 30px 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+form:after, form:before {
+    content: " ";
+    display: table;
+}
+
+form:after {
+    clear: both;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #000000;
+    border: 1px solid #000;
+}
+
+.input-hold {
+    width: 100%;
+    float: left;
+}
+
+.input-hold.c2 {
+    width: 50%;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
